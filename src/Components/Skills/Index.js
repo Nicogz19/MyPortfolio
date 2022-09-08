@@ -25,7 +25,7 @@ function LinearProgressWithLabel(props) {
 const Skills = ({ theme }) => {
     return (
         <Box className='skillsContainer'>
-            <Grid container justifyContent='space-between' spacing={2} sx={{marginBottom: 10}} >
+            <Grid container justifyContent='space-between' spacing={2} sx={{marginBottom: 15}} >
                 <Grid item xs={11} sm={11} md={6}>
                     <Box className='progressBar'>
                         <Typography>Html</Typography>
