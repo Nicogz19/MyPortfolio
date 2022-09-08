@@ -1,0 +1,93 @@
+.homeContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 110px;
+}
+
+.homeContainer .title{
+  font-size: 45px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-weight: bold;
+}
+
+.homeContainer .title span{
+  font-size: 40px;
+  color: #2196f3;
+  text-shadow: 2px 2px 2px black;
+}
+
+.homeContainer .content{
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.homeContainer .content h4{
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  margin-top: 25px;
+}
+
+.homeContainer .content span{
+  font-weight: bold;
+  color: #2196f3;
+  text-shadow: 2px 2px 2px black;
+}
+
+@media (max-width: 400px) {
+  .homeContainer .title {
+    font-size: 20px;
+  }
+  .homeContainer .title span{
+    font-size: 20px;
+  }
+  .homeContainer .content h4{
+    font-size: 20px;
+    margin-top: 60px;
+  }
+  .homeContainer .content span{
+    font-size: 20px;
+  }
+  .homeContainer .content{
+    margin-top: 60px;
+  }
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .homeContainer .title {
+    font-size: 25px;
+  }
+  .homeContainer .title span{
+    font-size: 25px;
+  }
+  .homeContainer .content h4{
+    font-size: 25px;
+    margin-top: 70px;
+  }
+  .homeContainer .content span{
+    font-size: 25px;
+  }
+  .homeContainer .content{
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .homeContainer .title {
+    font-size: 35px;
+  }
+  .homeContainer .title span{
+    font-size: 35px;
+  }
+  .homeContainer .content h4{
+    font-size: 35px;
+  }
+  .homeContainer .content span{
+    font-size: 35px;
+  }
+}

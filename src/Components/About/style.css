@@ -1,0 +1,195 @@
+.aboutContainer{
+    margin: 150px 0px 0px 0px;
+    background: rgba(0,0,0, 0);
+}
+
+.aboutContainer .background{
+    padding: 80px 0px 10px 0px;
+    background: rgba(0,0,0,.3);
+}
+
+.aboutContainer .title{
+    text-align: center;    
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px black;
+    margin-bottom: 60px;
+}
+
+.aboutContainer .myCard{
+    background: linear-gradient(333deg, rgba(77,171,245,1) 0%, rgba(33,150,243,1) 30%, rgba(23,105,170,1) 69%, rgba(8,51,85,1) 100%);
+    padding: 15px;
+    border-radius: 15px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    box-shadow: 2px 2px 8px black;
+}
+
+.aboutContainer .myCard img{
+    border-radius: 50%;
+    width: 160px;
+}
+
+.aboutContainer .verified{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aboutContainer .resume p{
+    color: white;
+    font-size: 18px;
+}
+
+.aboutContainer .resume span{
+    color: #2196f3;
+    font-weight: bold;
+}
+
+.aboutContainer .resume a{
+    margin-top: 15px;
+}
+
+.aboutContainer .dataContainer{
+    margin-top: 30px;
+    margin-bottom: 110px;
+}
+
+.aboutContainer .subtitle{
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 20px;
+}
+
+.aboutContainer .margin{
+    margin-bottom: 15px;
+}
+
+.aboutContainer .personalData div{
+    width: 60%;
+    margin: auto;
+}
+
+.aboutContainer .personalData p{
+    color: #4dabf5;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    font-size: 19px;
+}
+
+.aboutContainer .personalData span{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 18px;
+}
+
+.aboutContainer .interests{
+    background: linear-gradient(333deg, rgba(77,171,245,1) 0%, rgba(33,150,243,1) 30%, rgba(23,105,170,1) 69%, rgba(8,51,85,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px 20px 0px 0px;
+}
+
+.aboutContainer .interests p{
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+.aboutContainer .interests svg{
+    font-size: 35px;
+}
+
+.aboutContainer .interests:hover{
+    background: linear-gradient(333deg, rgba(66,166,245,1) 0%, rgba(23,148,247,1) 30%, rgba(11,99,168,1) 69%, rgba(6,54,93,1) 100%);
+    cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 450px) {
+    .aboutContainer .resume{
+        margin: 20px 15px 10px 15px;
+    }
+    .aboutContainer .personalData div{
+        width: 80%;
+    }
+    .aboutContainer .interest{
+        margin: 20px;
+    }
+    .aboutContainer .myCard{
+        width: 90%;
+    }
+    .aboutContainer .subtitle{
+        text-align: center;
+    }
+    .personalData{
+        display: none;
+    }
+    .aboutContainer .dataContainer{
+        margin-bottom: 60px;
+    }
+    .aboutContainer .interests{
+        margin: 20px 5px 0px 0px;
+    }
+    
+    .aboutContainer .interests p{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 600px) {
+    .aboutContainer .resume{
+        margin: 20px 15px 10px 15px;
+    }
+    .aboutContainer .personalData div{
+        width: 62%;
+    }
+    .aboutContainer .interest{
+        margin: 20px;
+    }
+    .aboutContainer .myCard{
+        width: 90%;
+    }
+    .aboutContainer .subtitle{
+        text-align: center;
+    }
+    .personalData{
+        display: none;
+    }
+    .aboutContainer .dataContainer{
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .aboutContainer .resume{
+        margin: 20px 30px 10px 30px;
+        text-align: center;
+    }
+    .aboutContainer .personalData div{
+        width: 100%;
+        margin: 20px;
+    }
+    .aboutContainer .myCard{
+        width: 60%;
+    }
+    .aboutContainer .myCard img{
+        width: 120px;
+    }
+    .aboutContainer .dataContainer{
+        margin-top: 70px;
+    }
+    .aboutContainer .interests{
+        margin: 20px 7px 0px 0px;
+    }
+    .aboutContainer .interests p{
+        font-size: 14px;
+    }
+}

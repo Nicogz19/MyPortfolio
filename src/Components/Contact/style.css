@@ -1,0 +1,57 @@
+.contactContainer{
+    padding: 70px 0px 120px 0px;
+}
+
+.contactContainer .contactImg{
+    width: 60%;
+    margin-left: 5%;
+}
+
+.contactContainer .formContact{
+    background: linear-gradient(333deg, rgba(6,124,218,1) 0%, rgba(16,116,196,1) 30%, rgba(11,99,168,1) 69%, rgba(6,54,93,1) 100%);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 2px 2px 8px black;
+    width: 90%;
+}
+
+.contactContainer .formContact button{
+    width: 100%;
+    background: rgb(0, 64, 114);
+}
+.contactContainer .formContact button:hover{
+    background: rgb(0, 47, 83);
+}
+
+.contactContainer .formContact .input{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.contactContainer .formContact .input label{
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .contactContainer .contactImgContainer{
+        display: none;
+    }
+    .contactContainer .contactFlexContainer{
+        justify-content: center;
+    }
+    .contactContainer .formContact{
+        width: 100%;
+    }
+}
+  
+@media (min-width: 600px) and (max-width: 900px) {
+    .contactContainer .contactImgContainer{
+        display: none;
+    }
+    .contactContainer .contactFlexContainer{
+        justify-content: center;
+    }
+    .contactContainer .formContact{
+        width: 100%;
+    }
+}

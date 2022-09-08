@@ -1,0 +1,18 @@
+.footerContainer{
+    position: fixed;
+    width: 100%;
+    bottom: 0; 
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(90deg, rgba(27,27,27,1) 10%, rgba(60,60,60,1) 30%, rgba(48,48,48,1) 50%, rgba(60,60,60,1) 70%, rgba(27,27,27,1) 90%);
+    z-index: 10;
+}
+.footerContainer .options{
+    color: white;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+}

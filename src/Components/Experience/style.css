@@ -1,0 +1,166 @@
+.experienceContainer{
+    padding: 90px 0px 1px 0px;
+    background: rgba(0,0,0,.3);
+}
+
+.experienceContainer .cardContainer{
+    margin-top: 20px;
+    margin-bottom: 130px;
+    color: #fff;
+    background-size: contain;
+}
+
+.experienceContainer .card{
+    position: relative;
+    margin: auto;
+    width: 50%;
+    height: 400px;
+    transform-style: preserve-3d;
+}
+
+.experienceContainer .card .face{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px black;
+    transform-style: preserve-3d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    backface-visibility: hidden;
+    transition: 1.3s ease-in-out;
+    transform: perspective(500px) rotateY(0deg);
+    cursor: pointer;
+}
+
+.experienceContainer .card .face.front{
+    background: linear-gradient(333deg, rgba(6,124,218,1) 0%, rgba(16,116,196,1) 30%, rgba(11,99,168,1) 69%, rgba(6,54,93,1) 100%);
+}
+
+.experienceContainer .card:hover .face.front{
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.experienceContainer .card .face.back{
+    background: linear-gradient(333deg, rgba(21,130,195,1) 0%, rgba(37,83,125,1) 30%, rgba(25,54,98,1) 69%, rgba(11,21,68,1) 100%);
+    color: #fff;
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.experienceContainer .card:hover .face.back{
+    transform: perspective(500px) rotateY(360deg);
+}
+
+.experienceContainer .card .face h4{
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    transform: perspective(500px) translateZ(50px);
+    margin-top: 25px;
+}
+
+.experienceContainer .chipContainer div{
+    color: white;
+    margin: 5px 0px 5px 0px;
+}
+
+.experienceContainer .chipContainer div:hover{
+    background: linear-gradient(333deg, rgba(0,63,101,1) 0%, rgba(29,76,119,1) 30%, rgba(10,24,46,1) 69%, rgba(0,8,43,1) 100%);
+    cursor: pointer;
+}
+
+.experienceContainer .timeline{
+    color: #fff;
+    margin-bottom: 70px;
+    width: 90%;
+}
+
+.experienceContainer .timelineContentEnd{
+    margin: auto 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.experienceContainer .timelineContentStart{
+    margin: auto 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.experienceContainer .timelineContent{
+    padding: 20px 16px 20px 16px;
+}
+
+.experienceContainer .timelineContent span{
+    color: #4dabf5;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+
+.experienceContainer .timelineImage{
+    width: 80%;
+}
+
+.experienceContainer .imgCircle{
+    border-radius: 50%;
+    background: white;
+}
+
+.experienceContainer .cardImg{
+    width: 50%;
+}
+
+.experienceContainer .bold{
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: 1.5px;
+}
+
+@media (max-width: 600px) {
+    .experienceContainer .timelineImage{
+        width: 60%;
+        margin-left: 20%;
+        margin-bottom: 40px;
+    }
+    .experienceContainer .cardImg{
+        width: 60%;
+    }
+    .experienceContainer .card{
+        width: 70%;
+    }
+    .experienceContainer .cardContainerMobile{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 130px;
+        color: #fff;
+        background-size: contain;
+    }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+    .experienceContainer .timelineImage{
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 40px;
+    }
+    .experienceContainer .cardImg{
+        width: 40%;
+    }
+    .experienceContainer .card{
+        width: 70%;
+    }
+    .experienceContainer .cardContainerMobile{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 130px;
+        color: #fff;
+        background-size: contain;
+    }
+}
