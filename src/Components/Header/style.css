@@ -17,6 +17,10 @@
     text-decoration: none;
 }
 
+.headerContainer a:hover{
+    color: #2196f3;
+}
+
 .myLogo{
     margin-top: 8px;
     width: 50px;
