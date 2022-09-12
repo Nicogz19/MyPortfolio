@@ -1,4 +1,4 @@
-import { Box, Button, Grid, TextField } from '@mui/material'
+import { Box, Button, Grid, TextField, Typography } from '@mui/material'
 import React, {useState} from 'react'
 import './style.css'
 import emailJs from '@emailjs/browser'
@@ -51,11 +51,12 @@ const Contact = () => {
 
     return (
         <Box className='contactContainer'>
+            <Typography variant='h4' component='h4' className='titlePage'>Contact Me</Typography>
             <Grid className='contactFlexContainer' container alignItems='center'>
                 <Grid item md={6} className='contactImgContainer'>
                     <img className='contactImg' src={contactImg} alt='contactImg' />
                 </Grid>
-                <Grid className='formContactContainer' item xs={12} sm={11} md={6}>
+                <Grid className='formContactContainer' item xs={11} sm={11} md={6}>
                     <Box className='formContact' component='form' onSubmit={sendEmail}>
                         <CustomTextField 
                             label='Name' 

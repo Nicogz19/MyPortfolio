@@ -3,6 +3,13 @@
     background: rgba(0,0,0,.3);
 }
 
+.experienceContainer .titlePage{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 5px black;
+}
+
 .experienceContainer .cardContainer{
     margin-top: 20px;
     margin-bottom: 130px;
@@ -135,6 +142,9 @@
     }
     .experienceContainer .card{
         width: 70%;
+    }
+    .experienceContainer .principal{
+        margin-bottom: 65px;
     }
     .experienceContainer .cardContainerMobile{
         display: block;

@@ -8,7 +8,7 @@ const home = () => {
     return (
         <Box className='homeContainer'>
             <Typography variant='h1' className='title'>
-                Hi, my name is <span href="https://nextjs.org">Nicolás González!</span>
+                Hi, my name is <span>Nicolás González!</span>
             </Typography>
 
             <Box className='content'>

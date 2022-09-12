@@ -1,5 +1,12 @@
 .skillsContainer{
-    padding-top: 100px;
+    padding-top: 90px;
+}
+
+.skillsContainer .titlePage{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 5px black;
 }
 
 .skillsContainer .progressBar{

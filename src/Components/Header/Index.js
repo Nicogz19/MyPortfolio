@@ -11,6 +11,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
+import myLogo from '../../img/yo_2.jpg'
 import './style.css'
 
 const drawerWidth = 240;
@@ -25,8 +26,8 @@ function Header(props) {
     };
 
     const drawer = (
-        <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-            <Typography variant="h6" sx={{ my: 2 }}>Nico</Typography>
+        <Box className='drawerContainer' onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+            <img src={myLogo} className='myLogo' alt='mi-logo' />
             <Divider />
             <List>
                 {navItems.map((item) => (
@@ -44,7 +45,7 @@ function Header(props) {
 
     return (
         <Box className='headerContainer'>
-            <AppBar component="nav" sx={{ background: 'linear-gradient(90deg, rgba(27,27,27,1) 10%, rgba(60,60,60,1) 30%, rgba(48,48,48,1) 50%, rgba(60,60,60,1) 70%, rgba(27,27,27,1) 90%);'}}>
+            <AppBar component="nav" className='appBar'>
                 <Toolbar>
                     <IconButton
                         color="inherit"
@@ -60,7 +61,7 @@ function Header(props) {
                         component="div"
                         sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
                     >
-                        Nico
+                        <img src={myLogo} className='myLogo' alt='mi-logo' />
                     </Typography>
                     <Box sx={{ display: { xs: 'none', sm: 'flex' } }}>
                         {navItems.map((item) => (
@@ -82,7 +83,7 @@ function Header(props) {
                     }}
                     sx={{
                         display: { xs: 'block', sm: 'none' },
-                        '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+                        '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth, background: 'linear-gradient(333deg, rgba(6,124,218,1) 0%, rgba(16,116,196,1) 30%, rgba(11,99,168,1) 69%, rgba(6,54,93,1) 100%)' },
                     }}
                 >
                     {drawer}

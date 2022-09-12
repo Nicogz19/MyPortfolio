@@ -1,8 +1,24 @@
+.drawerContainer a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
 .headerContainer{
     display: flex;
+}
+
+.headerContainer .appBar{
+    background: linear-gradient(90deg, rgba(27,27,27,1) 10%, rgba(60,60,60,1) 30%, rgba(48,48,48,1) 50%, rgba(60,60,60,1) 70%, rgba(27,27,27,1) 90%);
 }
 
 .headerContainer a{
     color: white;
     text-decoration: none;
+}
+
+.myLogo{
+    margin-top: 8px;
+    width: 50px;
+    border-radius: 50%;
 }

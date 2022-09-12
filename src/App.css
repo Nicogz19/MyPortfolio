@@ -3,7 +3,6 @@ body {
   padding: 0;
   margin: 0;
   background: linear-gradient(90deg, rgba(153,153,153,1) 1%, rgba(87,87,87,1) 51%, rgba(43,43,43,1) 90%);
-  /* background: linear-gradient(180deg, rgba(21,130,195,1) 0%, rgba(37,83,125,1) 41%, rgba(11,21,68,1) 100%); */
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-family: cursive;

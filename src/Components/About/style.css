@@ -1,11 +1,14 @@
 .aboutContainer{
-    margin: 150px 0px 0px 0px;
-    background: rgba(0,0,0, 0);
+    margin: 120px 0px 0px 0px;
+    padding: 90px 0px 10px 0px;
+    background: rgba(0,0,0,.3);
 }
 
-.aboutContainer .background{
-    padding: 80px 0px 10px 0px;
-    background: rgba(0,0,0,.3);
+.aboutContainer .titlePage{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 5px black;
 }
 
 .aboutContainer .title{

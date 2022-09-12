@@ -1,5 +1,12 @@
 .contactContainer{
-    padding: 70px 0px 120px 0px;
+    padding: 90px 0px 120px 0px;
+}
+
+.contactContainer .titlePage{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 5px black;
 }
 
 .contactContainer .contactImg{
