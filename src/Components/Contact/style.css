@@ -39,6 +39,27 @@
     color: white;
 }
 
+.css-1geqe83-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root.Mui-disabled{
+    color: white!important;
+}
+
+.successfullyMessage{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.successfullyMessage p{
+    color: white;
+    margin-top: 20px!important;
+    text-align: center;
+}
+
+.successfullyMessage svg{
+    color: #19ff19;
+    margin-left: 10px;
+}
+
 @media (max-width: 600px) {
     .contactContainer .contactImgContainer{
         display: none;
