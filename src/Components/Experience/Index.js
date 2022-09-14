@@ -126,8 +126,7 @@ const Experience = () => {
                                 <Typography variant="h6" component="span">
                                     Remedios Escalada de San Martin
                                 </Typography>
-                                <Typography>Third studies</Typography>
-                                <Typography>Title: Information systems analyst</Typography>
+                                <Typography>Information systems analyst</Typography>
                             </TimelineContent>
                         </TimelineItem>
                         <TimelineItem>

@@ -12,6 +12,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import myLogo from '../../img/yo_2.jpg'
+import CloseIcon from '@mui/icons-material/Close';
 import './style.css'
 
 const drawerWidth = 240;
@@ -27,7 +28,9 @@ function Header(props) {
 
     const drawer = (
         <Box className='drawerContainer' onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-            <img src={myLogo} className='myLogo' alt='mi-logo' />
+            <IconButton className='iconButton'>
+                <CloseIcon />
+            </IconButton>
             <Divider />
             <List>
                 {navItems.map((item) => (

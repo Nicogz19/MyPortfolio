@@ -51,6 +51,7 @@
 .aboutContainer .resume span{
     color: #2196f3;
     font-weight: bold;
+    text-shadow: 1px 1px 2px black;
 }
 
 .aboutContainer .resume a{
@@ -129,6 +130,9 @@
     .aboutContainer .myCard{
         width: 90%;
     }
+    .aboutContainer .myCard img{
+        width: 80px;
+    }
     .aboutContainer .subtitle{
         text-align: center;
     }
@@ -141,7 +145,6 @@
     .aboutContainer .interests{
         margin: 20px 5px 0px 0px;
     }
-    
     .aboutContainer .interests p{
         font-size: 14px;
     }

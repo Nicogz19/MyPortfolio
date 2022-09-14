@@ -1,7 +1,16 @@
 .drawerContainer a{
     color: white;
     text-decoration: none;
-    margin-bottom: 20px;
+    margin: 30px 0px 0px 20px;
+}
+
+.drawerContainer .iconButton{
+    margin: 20px;
+}
+
+.drawerContainer .iconButton svg{
+    color: white;
+    font-size: 25px;
 }
 
 .headerContainer{

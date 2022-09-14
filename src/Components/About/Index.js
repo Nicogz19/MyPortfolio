@@ -16,7 +16,9 @@ function Tilt(props) {
     const tilt = useRef(null)
   
     useEffect(() => {
-      VanillaTilt.init(tilt.current, options);
+        if(window.innerWidth > 900){
+            VanillaTilt.init(tilt.current, options);
+        }
     }, [options]);
   
     return <div ref={tilt} {...rest} />;
@@ -24,7 +26,7 @@ function Tilt(props) {
 
 const About = () => {
     const options = {
-        scale: 1.2,
+        scale: 1.1,
         speed: 1000,
         max: 30
     };
@@ -67,25 +69,25 @@ const About = () => {
                         <Grid item xs={4}>
                             <Tilt className='interests' options={options}>
                                 <SportsEsportsIcon />
-                                <Typography>Video game</Typography>
+                                <Typography>Video games</Typography>
                             </Tilt>
                         </Grid>
                         <Grid item xs={4}>
                             <Tilt className='interests' options={options}>
                                 <SportsSoccerIcon />
-                                <Typography>Play football</Typography>
+                                <Typography>Football</Typography>
                             </Tilt>
                         </Grid>
                         <Grid item xs={4}>
                             <Tilt className='interests' options={options}>
                                 <DirectionsBikeIcon />
-                                <Typography>Ride a bike</Typography>
+                                <Typography>Bike riding</Typography>
                             </Tilt>
                         </Grid>
                         <Grid item xs={4}>
                             <Tilt className='interests' options={options}>
                                 <SportsTennisIcon />
-                                <Typography>Play paddle</Typography>
+                                <Typography>Paddle</Typography>
                             </Tilt>
                         </Grid>
                         <Grid item xs={4}>
