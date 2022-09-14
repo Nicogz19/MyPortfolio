@@ -71,7 +71,7 @@ const CardAdvitersEperience = () => <Box className='card'>
         <Typography className='bold'>Used technology</Typography>
         <Stack direction="row" spacing={1} className='chipContainer'>
             <Chip label="Css" variant="outlined" />
-            <Chip label="Styled-component" variant="outlined" />
+            <Chip label="Sass" variant="outlined" />
             <Chip label="Responsive-design" variant="outlined" />
         </Stack>
         <Stack direction="row" spacing={1} className='chipContainer'>

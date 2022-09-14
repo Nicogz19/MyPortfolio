@@ -44,8 +44,9 @@ const About = () => {
                     </Box>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} className='resume'>
-                    <Typography>Hi! My name is <span>Nicolás González</span> and I am a Front End Developer.</Typography>
-                    <Typography>I really like programming, I do it for work and also as a hobby in my spare time, I really like learning new technologies and challenging myself with new projects.</Typography>
+                    <Typography><span>Frontend developer</span> with 3 years of experience.</Typography>
+                    <Typography>I really like programming, I do it for work and also as a hobby in my spare time.</Typography>
+                    <Typography>Passionate about new technologies and challenging projects.</Typography>
                     <Button color='primary' variant='contained' href="../../CV_Nico.docx.pdf" download>Download CV</Button>
                 </Grid>
             </Grid>
