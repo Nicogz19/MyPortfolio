@@ -40,7 +40,7 @@ const CustomTextField = styled(TextField)({
 
 const CustomButton = styled(LoadingButton)({
     '& .MuiLoadingButton-loadingIndicator': {
-        right: 200,
+        right: '20%',
         color: 'white'
     },
     '& .MuiButtonBase-root .Mui-disabled':{

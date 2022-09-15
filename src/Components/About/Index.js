@@ -9,7 +9,9 @@ import MovieIcon from '@mui/icons-material/Movie';
 import SportsTennisIcon from '@mui/icons-material/SportsTennis';
 import VerifiedIcon from '@mui/icons-material/Verified';
 import VanillaTilt from 'vanilla-tilt';
+import DownloadIcon from '@mui/icons-material/Download';
 import MyImage from '../../img/yo_2.jpg';
+import cvFile from '../../NicolasCV.pdf';
 
 function Tilt(props) {
     const { options, ...rest } = props;
@@ -49,7 +51,7 @@ const About = () => {
                     <Typography><span>Frontend developer</span> with 3 years of experience.</Typography>
                     <Typography>I really like programming, I do it for work and also as a hobby in my spare time.</Typography>
                     <Typography>Passionate about new technologies and challenging projects.</Typography>
-                    <Button color='primary' variant='contained' href="../../CV_Nico.docx.pdf" download>Download CV</Button>
+                    <Button color='primary' variant='contained' href={cvFile} download='Nicolas Cv'>Download CV <DownloadIcon sx={{marginLeft: 1}}/></Button>
                 </Grid>
             </Grid>
             <Grid container justifyContent='space-around' alignItems='center' spacing={2} className='dataContainer'>
