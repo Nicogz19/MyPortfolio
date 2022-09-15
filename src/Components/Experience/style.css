@@ -132,10 +132,19 @@
 }
 
 @media (max-width: 600px) {
+    .experienceContainer .timeline{
+        width: 100%;
+    }
     .experienceContainer .timelineImage{
         width: 60%;
         margin-left: 20%;
         margin-bottom: 40px;
+    }
+    .experienceContainer .timelineContent span{
+        font-size: 16px;
+    }
+    .experienceContainer .timelineContent p{
+        font-size: 14px;
     }
     .experienceContainer .cardImg{
         width: 60%;
